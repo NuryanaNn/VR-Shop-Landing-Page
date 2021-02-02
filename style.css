@@ -1,0 +1,55 @@
+.jumbotron{
+    background-image: url(jumbotron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    padding-top: 100px;
+}
+.product{
+    margin-top: 50px;
+}
+.choose{
+    margin-top: 100px;
+    text-align: center;
+}
+.choose img{
+    width: 250px;
+}
+.online{
+    margin-top: 50px;
+}
+.tombol{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px 1px 1px 1px solid black;
+    color: black;
+}
+.bar{
+    margin-top: 60px;
+}
+.footer{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+@media(min-width:992px){
+    .jumbotron{
+        background-image: url(jumbotron.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-top: -60px;
+        padding-top: 200px;
+        text-align: left;
+    }
+    .choose img{
+        width: 500px;
+    }
+    .online{
+        margin-top: 150px;
+    }
+}
